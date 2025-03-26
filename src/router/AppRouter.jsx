@@ -24,9 +24,9 @@ export const AppRouter = () => {
                 {/* METODO PARA HACER UNA RUTA PRIVADA */}
 
                 <Route path="/*" element=
-                    {<PrivateRoute>
+                    {<PublicRoute>
                         <HeroesRoutes />
-                    </PrivateRoute>} />
+                    </PublicRoute>} />
 
 
             </Routes>

@@ -27,7 +27,7 @@ export const HeroPage = () => {
 
           <div className="col-md-4 text-center p-2">
             <img
-              src={`/assets/heroes/${id}.jpg`}
+              src={`/heroes/${id}.jpg`}
               alt={hero.superhero}
               className="img-fluid rounded-3 shadow-sm"
               style={{ maxHeight: "400px" }}
